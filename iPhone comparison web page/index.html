@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset= "utf-8">
+<link href="styles/style.css" rel="stylesheet">
+    <title>Simple HTML page</title>
+</head>
+
+<body>
+    <h1>iPhone comparison</h1>
+
+<!-- Different phones are in their own class named after the model. Image source is from the images folder. Contains a link
+to a price comparison site (hinta.fi) -->
+
+    <h3 class="eleven">iPhone 11</h3>
+    <img src="images/iphone11.png"
+	style="width:200px;height:236px;">
+    <p class="eleven">Specs:</p>
+    <ul class="eleven">
+      <li>Camera: 12 MP (Dual camera), f/1.8 & f/2.4 
+      <li>Screen: 6.1 inches, IPS LCD, 828 x 1792 pixels, 324 PPI
+      <li>Hardware: Apple A13 Bionic, 4GB ram</p>
+    </ul>
+    <div><a href="https://hinta.fi/1767576/apple-iphone-11">Prices for iPhone 11</a></div>
+
+    <h3 class="twelve">iPhone 12</h3>
+    <img src="images/iphone12.png"
+	style="width:200px;height:236px;">
+    <p class="twelve">Specs:</p>
+    <ul class="twelve">
+      <li>Camera: 12 MP (Dual camera),  f/1.6 & f/2.4 
+      <li>Screen: 6.1 inches, Super Retina XDR, 1170 x 2532 pixels, 460 PPI
+      <li>Hardware: Apple A14 Bionic, 4GB ram</p>
+    </ul>
+    <div><a href="https://hinta.fi/2067068/apple-iphone-12">Prices for iPhone 12</a></div>
+
+    <h3 class="thirteen">iPhone 13</h3>
+    <img src="images/iphone13.png"
+	style="width:200px;height:236px;">
+    <p class="thirteen">Specs:</p>
+    <ul class="thirteen">
+      <li>Camera: 12 MP (Dual camera),  f/1.6 & f/2.4 
+      <li>Screen: 6.1 inches, Super Retina XDR, 1170 x 2532 pixels, 460 PPI
+      <li>Hardware: Apple A15 Bionic, 4GB ram</p>
+    </ul>
+    <div><a href="https://hinta.fi/3033183/apple-iphone-13">Prices for iPhone 13</a></div>
+<p>
+</p>
+    <h2>Summary:</h2>
+
+    <table id="table">
+    <tr>
+      <th>Model</th>
+      <th>Summary</th>
+    </tr>
+    <tr>
+      <td class="eleven">iPhone 11</td>
+      <td class="eleven">"The iPhone 11 is basically an S update to last year's very popular iPhone XR. From the front, it looks exactly the same."</td>
+    </tr>
+    <tr>
+      <td class="twelve">iPhone 12</td>
+      <td class="twelve">"Smaller than the 2019 iPhone 11, yet a similar sized and a sharper screen + 5G" </td>
+    </tr>  
+    <tr>
+      <td class="thirteen">iPhone 13</td>
+      <td class="thirteen">"The iPhone 13’s brighter display, longer battery life and powerful cameras make it the best iPhone for most people"</td>
+    </tr>
+    </table>
+
+<!-- text field and send button -->
+<p>
+</p>
+   <form>
+     <label>Do you prefer iOS or Android? Why?
+       <input name="submitted-anwser"
+     </label>
+     <button>Send</button>
+   </form>
+
+  
+  
+</body>
+</html>

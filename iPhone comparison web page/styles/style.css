@@ -1,0 +1,38 @@
+/* Specs background color */
+p {background: black;
+}
+/* heading color, position and functions */
+h1 {color: blue;
+    position: sticky;
+    top: 0;
+    text-align: center;   
+}
+/* the color of the pages background (body) */
+body {
+  background-color: lightblue;
+}
+/* color of the phone's specs list */
+ul {
+  background: black;
+}
+
+/* link hover color specifications */
+div a:link    {color:blue;}
+div a:visited {color:purple;}
+div a:hover   {color:red;}
+div a:active  {color:yellow;}
+
+/*table styles*/
+table, th, td {
+border: 1px solid black;}
+table th {background: yellow;}
+table td {background: pink;}
+
+/* specificity rules on different phone models */
+.thirteen {color:red;
+	 font-weight: bold;}
+.twelve {color:green;
+         font-style: italic}
+.eleven {color:brown;
+         font-weight: 30;}
+
